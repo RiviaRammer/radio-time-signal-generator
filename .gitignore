@@ -1,0 +1,23 @@
+# Private build-time settings (the example stays tracked).
+**/config.h
+**/config.local.h
+# Generated firmware, caches, dependency downloads and local IDE state.
+**/build/
+**/build.before-move-*/
+**/managed_components/
+**/.codex-runs/
+**/.vscode/
+**/__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+# Firmware is shared separately; keep all binaries and debug products out of Git.
+*.bin
+*.elf
+*.map
+*.pdb
+*.obj
+*.o
+*.dll
+*.exe
+*.log

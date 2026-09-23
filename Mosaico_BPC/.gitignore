@@ -1,0 +1,9 @@
+build/
+build.before-move-*/
+managed_components/
+sdkconfig
+sdkconfig.old
+main/config.local.h
+main/config.h
+.codex-runs/
+__pycache__/
